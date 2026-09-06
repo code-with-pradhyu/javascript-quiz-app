@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+
+    <div class="quiz-container">
+
+        <!-- QUIZ SECTION -->
+
+        <div id="quiz">
+
+            <div class="quiz-heading">
+
+                <h1>JavaScript Quiz</h1>
+
+                <p>Test your JavaScript basics</p>
+
+            </div>
+
+
+            <div class="question-info">
+
+                <span id="questionNumber">
+                    Question 1 of 5
+                </span>
+
+                <span id="score">
+                    Score: 0 / 10
+                </span>
+
+            </div>
+
+
+            <h2
+                class="question"
+                id="question">
+            </h2>
+
+
+            <div
+                class="options"
+                id="options">
+            </div>
+
+
+            <div class="bottom">
+
+                <div>
+
+                    <button
+                        id="submitBtn"
+                        disabled>
+                        Submit Answer
+                    </button>
+
+                    <button
+                        id="nextBtn">
+                        Next →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RESULT SECTION -->
+
+        <div
+            class="result"
+            id="result">
+
+            <h2>Quiz Completed 🎉</h2>
+
+            <p class="final-score">
+                Your Score:
+                <strong id="finalScore">
+                </strong>
+            </p>
+
+            <button id="restartBtn">
+                Restart Quiz
+            </button>
+
+        </div>
+
+    </div>
+
+
+   <script src="script.js" ></script>
+
+</body>
+</html>
